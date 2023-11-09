@@ -115,11 +115,8 @@ color: #000000;
 
       }
       .class-13 {
-        background-color: rgba(255, 117, 0, 0.2);
-       width: 100px;
-       height: 100px;
-
-
+       width: 56px;
+       height: 56px;
       }
       .class-14 {
 
@@ -137,9 +134,9 @@ color: #000000;
     color: #000000;
       }
       .class-16 {
-        width: 100px;
-       height: 100px;
-       background-color: rgba(255, 117, 0, 0.2);
+        width: 56px;
+        height: 56px;
+
 
       }
       .class-17 {
@@ -158,9 +155,9 @@ color: #000000;
 
       }
       .class-19 {
-        width: 100px;
-       height: 100px;
-       background-color: rgba(255, 117, 0, 0.2);
+        width: 56px;
+       height: 56px;
+
 
       }
       .class-20 {
@@ -232,6 +229,11 @@ background-color: rgba(37, 36, 32, 0.5);
       }
       .list {
         list-style: none;
+      }
+      .icon-box {
+        width: 100px;
+        height: 100px;
+        background-color:rgba(255, 117, 0, 0.2);
       }
 
 
