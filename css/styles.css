@@ -1,241 +1,232 @@
-.class-1 {
-  background-color: #FFFFFF;
+.header-color {
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+
+
 }
-.class-2 {
-  width: 92px;
-height: 15px;
-text-decoration: underline #FF7500 ;
+.header-display {
+  display: flex;
+  align-items: center;
+
+}
+.header-logo {
+  transition: opacity 0.4s ease;
+}
+.header-logo:hover{
+opacity: 0.8;
+}
+.header-logo:active {
+  opacity: 0.6;
+}
+
+.header-list {
+font-size: 13px;
+font-weight: 500;
 text-transform: uppercase;
-font-weight: 500;
-letter-spacing: 1px;
-font-size: 13px;
-line-height: 15.23px;
-color: #000000;
+list-style: none;
+display: flex;
+justify-content: flex-end;
 }
-.class-3 {
-width: 68px;
-height: 15px;
-text-decoration: none;
-text-transform:uppercase ;
-font-weight: 500;
-letter-spacing:1px ;
-font-size: 13px;
-line-height:15.23px;
-color: #000000;
-}
-.class-4 {
-  width:76px ;
-  height: 15px;
-  text-decoration:none ;
-  text-transform:uppercase;
-  font-weight:500px ;
-  letter-spacing:1px ;
-  font-size: 13px;
+
+
+
+
+.list-item {
+  text-decoration: none;
+  list-style: none;
+  color: rgba(0, 0, 0, 1);
+  list-style: none;
   line-height: 15.23px;
-  color:#000000 ;
-  }
-  .class-5 {
-    width: 91px;
-    height: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight:500 ;
-    letter-spacing:1px ;
-    font-size:13px ;
-    line-height: 15.23px;
-    color: #000000;
-    }
-    .class-6 {
-      width: 155px;
-      height: 39px;
-      text-decoration:none ;
-      text-transform:none ;
-      font-weight:700 ;
-      letter-spacing:0.5px ;
-      font-size:13px ;
-      line-height:15.23px ;
-      color: #FFFFFF;
-      background-color: #FF7500;
-      }
-      .class-7 {
-        background-color: #252420;
-      }
-      .line-hero {
-        width: 80px;
-        height: 3px;
-       background-color: #FF7500;
-      }
-      .class-8 {
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 48px;
-        letter-spacing: 0.5px;
-        color: #FFFFFF;
-        text-align: left;
-
-      }
-      .class-9 {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        color: #FFFFFF;
-        text-align: left;
-      }
-      .class-10 {
-      background-color: #FF7500;
-      color: #FFFFFF;
-      font-weight: 700;
-      font-size: 13px;
-      line-height: 15.23px;
-      letter-spacing: 0.5px;
-      width: 104px;
-      height: 15px;
-      text-decoration: none;
-      text-align: center;
-      }
-      .class-11 {
-        width: 510px;
-        height: 510px;
-        object-position: center;
-      }
-      .color {
-        background: #FFFFFF;
-      }
-
-      .class-12 {
-      width: 435px;
-      height: 172px;
-      text-align: center;
-      font-weight: 700;
-      font-size: 72px;
-      line-height: 86.4px;
-      letter-spacing: 0.5px;
-      color: #000000;
-
-      }
-      .class-13 {
-        background-color: rgba(255, 117, 0, 0.2);
-       width: 100px;
-       height: 100px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  transition: color 0.4s ease, opacity 0.4s ease;
 
 
-      }
-      .class-14 {
+}
+.list-item:hover {
+  color: #ff7500;
+}
+.list-item:active {
+  opacity: 0.6;
 
-     font-weight: 700;
-     font-size: 24px;
-     line-height: 28.8px;
-     letter-spacing: 0.5px;
-     color: #000000;
-      }
-      .class-15 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    color: #000000;
-      }
-      .class-16 {
-        width: 100px;
-       height: 100px;
-       background-color: rgba(255, 117, 0, 0.2);
+}
 
-      }
-      .class-17 {
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 28.8px;
-        letter-spacing: 0.5px;
-        color: #000000;
-      }
-      .class-18 {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        color: #000000;
+.class-button {
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  color: #FFF;
+  background: rgba(255, 117, 0, 1);
+  font-family: 'Roboto', sans-serif;
+  transition: opacity 0.4s ease;
 
-      }
-      .class-19 {
-        width: 100px;
-       height: 100px;
-       background-color: rgba(255, 117, 0, 0.2);
+}
+.class-button:hover {
+  opacity: 0.8;
+}
+.class-button:active {
+  opacity: 0.6;
+}
+.line-hero {
+  width: 80px;
+  height: 3px;
+  background: rgba(255, 117, 0, 1);
+}
+.python-book {
+  background: rgba(37, 36, 32, 1);
+}
 
-      }
-      .class-20 {
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 28.8px;
-        letter-spacing: 0.5px;
-        color: #000000;
-      }
-      .class-21 {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        color: #000000;
 
-      }
-      .class-22 {
-        background: #252420;
 
-      }
-      .class-23 {
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0.5px;
-        color: #FFFFFF;
-        text-align: left;
+.python-box {
+  display: flex;
+  background: rgba(37, 36, 32, 1);
+  justify-content: space-between;
 
-      }
-      .class-24 {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        color: #FFFFFF;
-        text-align: left;
-      }
-
-      .class-25 {
-        color: #FF7500;
-      }
-      .class-26 {
-       width: 440px;
-       height: 440px;
-
-      }
-      .list-item {
-        text-decoration: none;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 18.75px;
-        color: #252420;
-
-      }
-      .item2 {
-        width: 340;
-      }
-      .text-box {
-        width: 440px;
-      }
-      .site-footer {
-        background-color: #F8F8F8;
-
-      }
-      .hero {
-height: 2px;
-background-color: rgba(37, 36, 32, 0.5);
-      }
-      .list {
-        list-style: none;
-      }
+}
 
 
 
 
+.main {
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0.5px;
+color: rgba(255, 255, 255, 1);
+font-family: 'Roboto Condensed', sans-serif;
 
 
+}
+.small-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: rgba(255, 255, 255, 1);
+font-family: 'Roboto', sans-serif;
+}
+.img-pyhon {
+  width: 510;
+  height: 510;
+}
+
+
+.bold-text{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86.4px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 1);
+
+}
+.bold-box {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.bold-list {
+font-weight: 700;
+font-size: 24px;
+line-height: 28.8px;
+letter-spacing: 0.5px;
+color: rgba(0, 0, 0, 1);
+font-family: 'Roboto', sans-serif;
+}
+.bold-img-box {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 117, 0, 0.2);
+  ;
+}
+.bold-img {
+  width: 56px;
+  height: 56px;
+}
+.bold-item {
+width: 314px;
+
+}
+.bold-item {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: rgba(0, 0, 0, 1);
+
+}
+.orange {
+  color: rgba(255, 117, 0, 1);
+
+}
+.p-bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto', sans-serif;
+}
+.img-aksiya {
+  width: 440px;
+  height: 440px;
+
+}
+.aksiya-box {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.footer-list a {
+  color: #252420;
+}
+.footer-list a:hover{
+  color: #ff7500;
+}
+.footer-list a:active{
+  opacity: 0.6;
+}
+
+
+.footer-item {
+font-weight: 400px;
+font-size: 16px;
+line-height: 18.75px;
+
+list-style: none;
+
+}
+
+.footer-list-item {
+  text-decoration: none;
+  color: rgba(37, 36, 32, 1);
+  font-family: 'Roboto', sans-serif;
+  transition: color 0.4s ease;
+}
+.footer-list-item:hover{
+  color: #ff7500;
+}
+.footer-list-item:focus{
+  color: #ff7500;
+  opacity: 0.6;
+
+
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+
+}
