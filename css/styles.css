@@ -1,4 +1,8 @@
-
+*:focus {
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+  opacity: 0.6;
+}
 .header-color {
   background: rgba(255, 255, 255, 1);
   display: flex;
@@ -16,6 +20,7 @@
 }
 .header-logo {
   transition: opacity 0.4s ease;
+
 }
 .header-logo:hover{
 opacity: 0.8;
@@ -23,7 +28,10 @@ opacity: 0.8;
 .header-logo:active {
   opacity: 0.6;
 }
-
+.header-logo:focus {
+  outline: 2px dotted #FF7500;
+opacity: 0.6;
+}
 .header-list {
 font-size: 13px;
 font-weight: 500;
@@ -224,13 +232,22 @@ font-family: 'Roboto', sans-serif;
 width: 314px;
 
 }
+.bold-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+ letter-spacing: 0.5px;
+ color:  rgba(0, 0, 0, 1);
+
+}
 .bold {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
   color: rgba(0, 0, 0, 1);
-  display: flex;
+display: flex;
+  font-family: 'Roboto', sans-serif;
 
 }
 .orange {
@@ -296,12 +313,10 @@ list-style: none;
 .footer-list-item:hover{
   color: #ff7500;
 }
-.footer-list-item:focus{
-  color: #ff7500;
-  opacity: 0.6;
 
 
-}
+
+
 .footer-box {
   display: flex;
   justify-content: space-between;
