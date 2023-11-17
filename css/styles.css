@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 .header-color {
   background: rgba(255, 255, 255, 1);
   display: flex;
   justify-content: space-between;
 
 
+=======
+
+.class-1 {
+  background-color: #FFFFFF;
+>>>>>>> ec6ea8d33686387947ef12738a135ed65a03f581
 }
 .header-display {
   display: flex;
@@ -24,6 +30,7 @@ opacity: 0.8;
 font-size: 13px;
 font-weight: 500;
 text-transform: uppercase;
+<<<<<<< HEAD
 list-style: none;
 display: flex;
 justify-content: flex-end;
@@ -77,14 +84,298 @@ justify-content: flex-end;
   background: rgba(37, 36, 32, 1);
 }
 
+=======
+font-weight: 500;
+letter-spacing: 1px;
+font-size: 13px;
+line-height: 15.23px;
+color: #000000;
+font-family: 'Roboto', sans-serif;
+
+}
+.class-3 {
+width: 68px;
+height: 15px;
+text-decoration: none;
+text-transform:uppercase ;
+font-weight: 500;
+letter-spacing:1px ;
+font-size: 13px;
+line-height:15.23px;
+color: #000000;
+font-family: 'Roboto', sans-serif;
+
+}
+.class-4 {
+  width:76px ;
+  height: 15px;
+  text-decoration:none ;
+  text-transform:uppercase;
+  font-weight:500px ;
+  letter-spacing:1px ;
+  font-size: 13px;
+  line-height: 15.23px;
+  color:#000000 ;
+  font-family: 'Roboto', sans-serif;
 
 
+  }
+  .class-5 {
+    width: 91px;
+    height: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:500 ;
+    letter-spacing:1px ;
+    font-size:13px ;
+    line-height: 15.23px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+
+
+    }
+    .class-6 {
+      width: 155px;
+      height: 39px;
+      text-decoration:none ;
+      text-transform:none ;
+      font-weight:700 ;
+      letter-spacing:0.5px ;
+      font-size:13px ;
+      line-height:15.23px ;
+      color: #FFFFFF;
+      background-color: #FF7500;
+      font-family: 'Roboto', sans-serif;
+
+      }
+      .class-7 {
+        background-color: #252420;
+      }
+      .line-hero {
+        width: 80px;
+        height: 3px;
+       background-color: #FF7500;
+      }
+      .class-8 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        text-align: left;
+        font-family: 'Roboto Condensed', sans-serif;
+
+
+
+
+      }
+      .class-9 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+      }
+      .class-10 {
+      background-color: #FF7500;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15.23px;
+      letter-spacing: 0.5px;
+      width: 104px;
+      height: 15px;
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+
+      }
+      .class-11 {
+        width: 510px;
+        height: 510px;
+        object-position: center;
+      }
+      .color {
+        background: #FFFFFF;
+      }
+
+      .class-12 {
+      width: 435px;
+      height: 172px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 86.4px;
+      letter-spacing: 0.5px;
+      color: #000000;
+      font-family: 'Roboto Condensed', sans-serif;
+
+      }
+      .class-13 {
+       width: 56px;
+       height: 56px;
+      }
+      .class-14 {
+
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 28.8px;
+     letter-spacing: 0.5px;
+     color: #000000;
+     font-family: 'Roboto Condensed', sans-serif;
+
+      }
+      .class-15 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+
+      }
+      .class-16 {
+        width: 56px;
+        height: 56px;
+
+
+      }
+      .class-17 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.8px;
+        letter-spacing: 0.5px;
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+
+
+      }
+      .class-18 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+
+
+
+      }
+      .class-19 {
+        width: 56px;
+       height: 56px;
+
+
+      }
+      .class-20 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.8px;
+        letter-spacing: 0.5px;
+        color: #000000;
+        font-family: 'Roboto Condensed', sans-serif;
+
+
+      }
+      .class-21 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+
+
+>>>>>>> ec6ea8d33686387947ef12738a135ed65a03f581
+
+
+<<<<<<< HEAD
 .python-box {
   display: flex;
   background: rgba(37, 36, 32, 1);
   justify-content: space-between;
 
 }
+=======
+      }
+      .class-23 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        text-align: left;
+        font-family: 'Roboto Condensed', sans-serif;
+
+
+
+      }
+      .class-24 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+      }
+      .class-font {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+
+
+      }
+
+
+      .class-25 {
+        color: #FF7500;
+
+      }
+      .class-26 {
+       width: 440px;
+       height: 440px;
+
+      }
+      .list-item {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.75px;
+        color: #252420;
+        font-family: 'Roboto', sans-serif;
+
+
+      }
+      .item2 {
+        width: 340;
+      }
+      .text-box {
+        width: 440px;
+      }
+      .site-footer {
+        background-color: #F8F8F8;
+
+      }
+      .hero {
+height: 2px;
+background-color: rgba(37, 36, 32, 0.5);
+      }
+      .list {
+        list-style: none;
+      }
+      .icon-box {
+        width: 100px;
+        height: 100px;
+        background-color:rgba(255, 117, 0, 0.2);
+      }
+>>>>>>> ec6ea8d33686387947ef12738a135ed65a03f581
 
 
 
