@@ -7,6 +7,9 @@
   background: rgba(255, 255, 255, 1);
   display: flex;
   justify-content: space-between;
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 
@@ -16,6 +19,7 @@
 .header-display {
   display: flex;
   align-items: center;
+
 
 }
 .header-logo {
@@ -39,6 +43,7 @@ text-transform: uppercase;
 list-style: none;
 display: flex;
 justify-content: flex-end;
+padding: 0;
 }
 
 
@@ -72,6 +77,12 @@ justify-content: flex-end;
   background: rgba(255, 117, 0, 1);
   font-family: 'Roboto', sans-serif;
   transition: opacity 0.4s ease;
+  display: inline-block;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
 
 }
 .class-button:hover {
@@ -87,6 +98,7 @@ justify-content: flex-end;
 }
 .python-book {
   background: rgba(37, 36, 32, 1);
+  border-radius: 12px;
 }
 
 .main {
@@ -97,16 +109,10 @@ line-height: 15.23px;
 color: #000000;
 font-family: 'Roboto', sans-serif;
 }
-
-
-
-
-
-
-
       .line-hero {
         width: 80px;
         height: 3px;
+        border: none;
        background-color: #FF7500;
       }
 
@@ -114,7 +120,19 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   background: rgba(37, 36, 32, 1);
   justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
+}
+.img-pyhon {
+  width: 510;
+  height: 510;
+  border-radius:8px;
+
+}
+.bold-padding {
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 
       .class-font {
@@ -125,18 +143,9 @@ font-family: 'Roboto', sans-serif;
         color: #FFFFFF;
         text-align: left;
         font-family: 'Roboto', sans-serif;
-
-
       }
 
-
-
-
-
-
-
-
-      .list-iem {
+      .list-item {
         text-decoration: none;
         font-weight: 400;
         font-size: 16px;
@@ -194,6 +203,7 @@ font-family: 'Roboto', sans-serif;
 .img-pyhon {
   width: 510;
   height: 510;
+  border-radius: 8px;
 }
 
 
@@ -209,6 +219,7 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding: 0;
 }
 .bold-list {
 font-weight: 700;
@@ -221,8 +232,13 @@ font-family: 'Roboto', sans-serif;
 .bold-img-box {
   width: 100px;
   height: 100px;
-  background: rgba(255, 117, 0, 0.2);
-  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+ background-color: rgba(255, 117, 0, 0.2);
+
+
 }
 .bold-img {
   width: 56px;
@@ -240,6 +256,7 @@ width: 314px;
  color:  rgba(0, 0, 0, 1);
 
 }
+
 .bold {
   font-weight: 400;
   font-size: 16px;
@@ -265,17 +282,22 @@ display: flex;
 .img-aksiya {
   width: 440px;
   height: 440px;
+  border-radius: 12px;
 
 }
 .aksiya-box {
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 }
+
 
 .footer-icon {
   display: flex;
   justify-content: space-between;
+  padding-top: 56px;
+  padding-bottom: 56px;
 
 }
 .footer-list {
@@ -283,7 +305,9 @@ align-items: center;
   display: flex;
   justify-content: flex-end;
 
+
 }
+
 .footer-list a {
   color: #252420;
 }
@@ -293,13 +317,18 @@ align-items: center;
 .footer-list a:active{
   opacity: 0.6;
 }
+.footer-line {
+height: 2px;
+background-color:  rgba(37, 36, 32, 0.5);
+  border: 0;
+}
 
 
 .footer-item {
 font-weight: 400px;
 font-size: 16px;
 line-height: 18.75px;
-
+padding: 0;
 list-style: none;
 
 }
@@ -309,6 +338,7 @@ list-style: none;
   color: rgba(37, 36, 32, 1);
   font-family: 'Roboto', sans-serif;
   transition: color 0.4s ease;
+
 }
 .footer-list-item:hover{
   color: #ff7500;
@@ -320,5 +350,6 @@ list-style: none;
 .footer-box {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 
 }
